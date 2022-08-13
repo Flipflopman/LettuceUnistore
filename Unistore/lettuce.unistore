@@ -1,47 +1,17 @@
 {
 	"storeInfo": {
-		"url": "https://raw.githubusercontent.com/LinUwUxCat/LinuxCat-s-Store/master/unistore/linuxcat-store.unistore",
-		"file": "linuxcat-store.unistore",
-		"title": "LinuxCat's Store",
+		"url": "https://raw.githubusercontent.com/Flipflopman/LettuceUnistore/main/Unistore/lettuce.unistore",
+		"file": "lettuce.unistore",
+		"title": "Lettuce's Pirate Ship",
 		"author": "LinuxCat",
-		"description": "A store where everything is not made by me but most of it is.",
-		"revision":33,
-		"sheet": "linuxcat-store.t3x",
-		"sheetURL": "https://github.com/LinUwUxCat/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
-		"version": 3
+		"description": "The Pirate Ship: Free Video Games lol",
+		"revision":0,
+		"sheet": "lettuce.t3x",
+		"sheetURL": "https://raw.githubusercontent.com/Flipflopman/LettuceUnistore/main/Unistore/lettuce.t3x",
+		"version": 1
 	},
 	"storeContent": [{
-		"Download Celeste Classic GBA": [{
-			"type": "downloadFile",
-			"file": "https://github.com/JeffRuLz/Celeste-Classic-GBA/releases/download/v1.0/Celeste.Classic.GBA.v1.0.zip",
-			"output": "sdmc:/Celeste.Classic.GBA.v1.0.zip",
-			"message": "Downloading the Celeste GBA release..."
-		}, {
-			"type": "extractFile",
-			"file": "/Celeste.Classic.GBA.v1.0.zip",
-			"input": "",
-			"output": "/roms/gba/",
-			"message": "Extracting from the zip..."
-		}, {
-			"type": "deleteFile",
-			"file": "sdmc:/Celeste.Classic.GBA.v1.0.zip",
-			"message": "Deleting zip file..."
-		}, {
-			"type": "deleteFile",
-			"file": "sdmc:/roms/gba/readme.txt",
-			"message": "Deleting readme file..."
-  		}],
-		"info": {
-			"title": "Celeste Classic GBA",
-			"version": "1.0",
-			"author": "JeffRuLz",
-			"category": ["game"],
-			"console": ["GBA"],
-			"icon_index":0,
-			"license": "",
-			"description": "Celeste Classic ported to the Game boy Advance. Will download a .gba file in sdmc:/roms/gba/"
-		}
-	},
+		
 	{
 		"Download AnotherCelesteGBA 0.2-beta1": [{
 			"file": "https://github.com/LinUwUxCat/Another-Celeste-GBA/releases/download/v0.2-beta.1/Another-Celeste-GBA.gba",
